@@ -1,0 +1,655 @@
+//Print sum of any two numbers.
+
+
+public class TypeCastingDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Print sum of any two numbers.");
+		int a =10;
+		int b=30;
+		int sum=0;
+		sum= a+b;
+		System.out.println("Addition:"+sum);
+		
+		
+	}
+
+}
+
+Print sum of any two numbers.
+Addition:40
+###########################################################################################################
+
+print from current alphabet to ending alphabet .public class TypeCastingDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("print from current alphabet to ending alphabet .");
+		char a='a';
+		for (;a<='z';a++) {
+			System.out.println("alphabet--"+a);
+		}
+		
+		
+	}
+
+}
+ 
+print from current alphabet to ending alphabet .
+alphabet--a
+alphabet--b
+alphabet--c
+alphabet--d
+alphabet--e
+alphabet--f
+alphabet--g
+alphabet--h
+alphabet--i
+alphabet--j
+alphabet--k
+alphabet--l
+alphabet--m
+alphabet--n
+alphabet--o
+alphabet--p
+alphabet--q
+alphabet--r
+alphabet--s
+alphabet--t
+alphabet--u
+alphabet--v
+alphabet--w
+alphabet--x
+alphabet--y
+alphabet--z
+##########################################################################################################################
+
+public class TypeCastingDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Find out Factorial of 5.");
+	   
+		int fact=1;
+		for(int i=1;i<=5;i++) {
+			fact*=i;
+		}
+		
+		System.out.println(" Factorial of 5--"+fact);
+	}
+
+}
+
+Find out Factorial of 5.
+ Factorial of 5--120
+###############################################################################################################
+A) Print
+# # #
+# #
+#
+
+
+public class TypeCastingDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+	   
+		int i, j, row=1;   
+	
+		for(i=3; i>=row; --i)   
+		{   
+		
+		for(j=1; j<=i; j++)   
+		{   
+	   
+		System.out.print("* ");   
+		}   
+		
+		System.out.println();   
+		}   
+		} 
+	}
+
+* * * 
+* * 
+* 
+###############################################################################################################
+ *
+ * *
+ * * *
+ * * * *
+
+
+public class TypeCastingDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+	   
+		int i, j, row=4;   
+	
+		for(i=0; i<row; i++)   
+		{   
+		
+		for(j=0; j<=i; j++)   
+		{   
+	   
+		System.out.print("* ");   
+		}   
+		
+		System.out.println();   
+		}   
+		} 
+	}
+
+
+############################################################################################################
+
+6. Print the Fibbonachi Series
+a. First ten terms
+
+
+
+public class TypeCastingDemo {
+   
+	    public static void main (String args[])
+	    {
+	    	int n1=0,n2=1,n3,i,n=10;    
+	    	 System.out.print(n1+" "+n2);
+	    	    
+	    	 for(i=2;i<n;++i)
+	    	 {    
+	    	  n3=n1+n2;    
+	    	  System.out.print(" "+n3);    
+	    	  n1=n2;    
+	    	  n2=n3;    
+	    	 }  
+	    	 
+	    }
+	    
+}
+
+0 1 1 2 3 5 8 13 21 34
+##############################################################################################################3
+
+public class TypeCastingDemo {
+   
+	    public static void main (String args[])
+	    {
+	    	int n1=0,n2=1,n3,i,n=100;    
+	    	 System.out.print(n1+" "+n2);
+	    	    
+	    	 for(i=2;i<n;++i)
+	    	 {    
+	    	  n3=n1+n2;    
+	    	  if((n3%2) ==0) {
+	    		  System.out.print(" "+n3);  
+	    	  }
+	    	  n1=n2;    
+	    	  n2=n3; 
+	    	  if(n3>100) {
+	    		  break;
+	    	  }
+	    	 }  
+	    	 
+	    }
+	    
+}
+
+
+0 1 1 3 5 13 21 55 89
+
+##################################################################################################
+public class TypeCastingDemo {
+   
+	    public static void main (String args[])
+	    {
+	    	long   n1=0,n2=1,n3,i,n=1001;    
+	    	// System.out.print(n1+" "+n2);
+	    	    
+	    	 for(i=2;i<n;++i)
+	    	 {    
+	    	  n3=n1+n2; 
+	           if ((n3 > 99) & (n3 < n)){
+	    		  if(n3%2== 0) {
+	    			  System.out.print(" "+n3);
+	    		  }
+	        
+	            }
+	    	  n1=n2;    
+	    	  n2=n3;    
+	    	 }  
+	    	 
+	    }
+	    
+}
+
+ 144 610
+######################################################################################################################
+
+
+public class TypeCastingDemo {
+   
+	    public static void main (String args[])
+	    {
+	    	int n1=0,n2=1,n3,i,n=20;    
+	    	 System.out.print(n1+" "+n2);
+	    	 int sum=0;
+	    	    
+	    	 for(i=2;i<n;++i)
+	    	 {    
+	    	  n3=n1+n2;   
+	    	  if(n3<100) {
+	    		  sum +=n3;
+	    		  System.out.print(" "+n3);  
+	    	  }
+	    	  
+	    	  n1=n2;    
+	    	  n2=n3;    
+	    	 }  
+	    	 
+	    	 System.out.println("\n"+"Sum-- "+sum); 	 
+	    }
+	    
+}
+
+0 1 1 2 3 5 8 13 21 34 55 89
+Sum-- 231
+
+######################################################################################################################
+7. Print the series 
+
+
+public class TypeCastingDemo {
+   
+	    public static void main (String args[])
+	    {
+	    	int n=1,n2=3; 
+	    	 System.out.print(n+" ");
+	    	 
+	    	 for(int i=0;i<10;i++) {
+	    		 n +=3;
+	    		 System.out.print(n+" ");
+	    	 }
+	    	 
+	    }
+	    
+}
+1 4 7 10 13 16 19 22 25 28 31 
+###############################################################################################################################
+b.
+-20, -15, -10, -5, 0, 5……
+public class TypeCastingDemo {
+   
+	    public static void main (String args[])
+	    {
+	    	int n=-20,n2=3; 
+	    	 System.out.print(n+" ");
+	    	 
+	    	 for(int i=0;i<10;i++) {
+	    		 n -=-5;
+	    		 System.out.print(n+" ");
+	    	 }
+	    	 
+	    }
+	    
+}
+-20 -15 -10 -5 0 5 10 15 20 25 30 
+########################################################################################################################
+c. 1, -2,3,-4,5,-6……….
+
+public class TypeCastingDemo {
+   
+	    public static void main (String args[])
+	    {
+	    	 for(int i=1;i<15;i++) {
+	    		 if(i%2==0) {
+	    			 System.out.print("-"+i+" "); 
+	    		 }
+	    		 else {
+	    			 System.out.print(i+" ");
+	    		 }
+	    		 
+	    	 }
+	    	 
+	    }
+	    
+}
+1 -2 3 -4 5 -6 7 -8 9 -10 11 -12 13 -14 
+
+##########################################################################################################################
+public class TypeCastingDemo {
+   
+	    public static void main (String args[])
+	    {
+	    
+	    	int row=6,n=1,a=1,k=2,j=1;
+	    	
+	    	for(int i=0;i<=row;i++) {
+	    		System.out.print("0"+" ");
+	    		a=n;
+	    		  for( j=1;j<=i;j++) {
+	    			   
+	    			   System.out.print(a+" ");
+	    			   a=n*k;
+	    			  // System.out.print(a+" ");
+	    			   ++k;
+	    			  // System.out.print(k+" ");
+	    			   
+	  
+	    		   } 
+	    	  k=2;	  
+	    	  j=1;	  
+	    	  n+=1;
+	          System.out.println(); 
+	    		
+	    	}
+	    	 
+	    }
+	    
+}
+
+
+0
+0 2
+0 3 6
+0 4 8 12
+0 5 10 15 20
+0 6 12 18 24 30
+0 7 14 21 28 35 42
+#############################################################################################################################################
+
+9.Write a program to input a number and find the sum of its digits.
+
+/*
+9.Write a program to input a number and find the sum of its digits.
+*/
+import java.util.*;  
+
+public class TypeCastingDemo {
+   
+	    public static void main (String args[])
+	    {
+	      Scanner sc = new Scanner(System.in);
+	      System.out.print("Enter the  number :");
+	      int num = sc.nextInt();
+	      int sum=0;
+	      while (num !=0) {
+	    	  int rem=num%10;
+	    	  sum+=rem;
+	    	  num/=10;
+	      }
+	      
+	      System.out.print("sum of digit is: "+sum);
+	    }
+	    
+}
+Enter the  number :190398434
+sum of digit is: 41
+#############################################################################################################
+10.Write a program to convert 96F into its equivalent centigrade temperature.
+
+import java.util.*;  
+
+public class TypeCastingDemo {
+   
+	    public static void main (String args[])
+	    {
+	      Scanner sc = new Scanner(System.in);
+	      System.out.print("Enter the  Temprature in Ferenhit:");
+	      float f= sc.nextInt();
+	      double c;
+	      c=(f-32)/1.8000;
+	      
+	      System.out.println("Temprature in Ferenhit:"+f+"`F");
+	      System.out.println("Temprature in Centigrade:"+c+"`C");
+	      
+	    }
+	    
+}
+Enter the  Temprature in Ferenhit:130
+Temprature in Ferenhit:130.0`F
+Temprature in Centigrade:54.44444444444444`C
+
+###################################################################################################################
+11.Write a program that will display the factorial of the number 10
+import java.util.*;  
+
+public class TypeCastingDemo {
+   
+	    public static void main (String args[])
+	    {
+	      Scanner sc = new Scanner(System.in);
+	      System.out.print("Enter the Number:");
+	      int  num= sc.nextInt();
+	      int  fact = 1;
+	      
+	      if(num > 0) {
+	    	  for(int i=1;i<num;++i) {
+		    	  fact*=i;
+		      }
+	      }
+	      else {
+	    	  System.out.println("Number must be greater than 0");
+	      }
+	      
+	      System.out.println("factorial of the number:"+fact);
+	    }
+	    
+}
+
+Enter the Number:10
+factorial of the number:362880
+#################################################################################################################################
+12.Find the cubes of numbers between 1 and 10
+
+import java.util.*;  
+
+public class TypeCastingDemo {
+   
+	    public static void main (String args[])
+	    {
+	      Scanner sc = new Scanner(System.in);
+	      System.out.print("Enter the Number:");
+	      int  num= sc.nextInt();
+	      int  cube = 1;
+	      
+	      if(num >=1 & num<=10) {
+	    	  for(int i=1;i<=3;++i) {
+		    	  cube*=3;
+		      }
+	      }
+	      else {
+	    	  System.out.println("Number must be greater than 0 and betweeen 1 to 10");
+	      }
+	      
+	      System.out.println("Cube of the number:"+cube);
+	    }
+	    
+}
+Enter the Number:3
+Cube of the number:27
+###########################################################################################################################
+/*
+ 13.Find the area of circle whose radius is 10
+*/
+import java.util.*;  
+
+public class TypeCastingDemo {
+   
+	    public static void main (String args[])
+	    {
+	      Scanner sc = new Scanner(System.in);
+	      System.out.print("Enter the Radius:");
+	      int  num= sc.nextInt();
+	      int  area= 1;
+	      
+	      if(num ==10 ) {
+	    	 area=(int) ((3.14)*(num*num));
+	    	 System.out.println("area of the radius"+num+"is:"+area);
+	      }
+	      else {
+	    	  System.out.println("Radius must be 10");
+	      }
+	      
+	      
+	    }
+	    
+}
+Enter the Radius:1
+Radius must be 10
+#####################################################################################################################
+
+/*
+14.Find whether the given number is Armstrong number or not.
+*/
+import java.util.*;  
+
+public class TypeCastingDemo {
+   
+	    public static void main (String args[])
+	    {
+	      Scanner sc = new Scanner(System.in);
+	      System.out.print("Enter the number:");
+	      int  num= sc.nextInt();
+	      int  ans= 1;
+	      int sum=0;
+	      int a=num;
+	      
+	      while(num>0) {
+	    	  int rem=num%10;
+	    	  ans= rem*rem*rem;
+	    	  sum+=ans;
+	    	  num/=10;
+	    	  
+	      }
+	      
+	      if(sum== a) {
+	    	  System.out.println("The number "+a+" is Armstrong number"); 
+	      }
+	      else {
+	    	  System.out.println("The number "+a+" is Not Armstrong number"); 
+	      }
+	    
+	    
+	    }
+	    
+}
+
+Enter the number:407
+The number 407 is Armstrong number
+#####################################################################################################################
+/*
+15.write a program to get the following output:*** ### *** ### ***
+*/
+import java.util.*;  
+
+public class TypeCastingDemo {
+   
+	    public static void main (String args[])
+	    {
+	      Scanner sc = new Scanner(System.in);
+	      System.out.print("Enter the number of line you want:");
+	      int  num= sc.nextInt();
+	      int  ans= 1;
+	      
+	      for(int i=1;i<=num;i++) {
+	    	 if(i%2 == 0) {
+	    		 System.out.println("###");
+	    	 }
+	    	 else {
+	    		 System.out.println("***");
+	    	 }
+	      }
+	    
+	    }
+	    
+}
+
+Enter the number of line you want:4
+***
+###
+***
+###
+#############################################################################################################################
+
+16.Write a program to find the sum of three numbers using interactive user.
+
+
+/*
+16.Write a program to find the sum of three numbers using interactive user.
+*/
+import java.util.*;  
+
+public class TypeCastingDemo {
+   
+	    public static void main (String args[])
+	    {
+              int sum=0;
+              for(int i=0;i<args.length;i++) {
+            	  sum += Integer.parseInt(args[i]);
+              }
+              System.out.println("The sum is:"+sum);
+	    }
+	    
+}
+
+
+ Directory of D:\java_core\src
+
+09-07-2021  12:11    <DIR>          .
+09-07-2021  12:11    <DIR>          ..
+10-07-2021  15:43               414 TypeCastingDemo.java
+               1 File(s)            414 bytes
+               2 Dir(s)  95,768,195,072 bytes free
+
+D:\java_core\src>javac TypeCastingDemo.java;
+javac: invalid flag: TypeCastingDemo.java;
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+D:\java_core\src>javac TypeCastingDemo.java
+
+D:\java_core\src>java TypeCastingDemo 10 10 10
+The sum is:30
+
+###############################################################################################################
+write a program to accept a number from the command line and check if it is a prime number. 
+/*
+write a program to accept a number from the command line and check if it is a prime number. 
+*/
+import java.util.*;  
+
+public class TypeCastingDemo {
+   
+	    public static void main (String args[])
+	    {
+              int n=0;
+              //n= Integer.parseInt(args);
+              
+              int num = 1, i = 2;
+              boolean flag = false;
+              
+              while (i <= num / 2) {
+              
+                if (num % i == 0) {
+                  flag = true;
+                  break;
+                }
+
+                ++i;
+              }
+
+              if (!flag)
+                System.out.println(num + " is a prime number.");
+              else
+                System.out.println(num + " is not a prime number.");
+            }
+              
+              
+}
+	    
+1 is a prime number.
+
